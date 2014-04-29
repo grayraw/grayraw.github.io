@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/blog</id>
+  <link href="http://blog.url.com/blog"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2014-04-28T00:00:00+12:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>test2</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/04/28/test2.html"/>
+    <id>http://blog.url.com/blog/2014/04/28/test2.html</id>
+    <published>2014-04-28T00:00:00+12:00</published>
+    <updated>2014-04-28T16:47:50+12:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="test-2"&gt;TEST 2&lt;/h1&gt;
+
+&lt;p&gt;Середина похода хоббита и гномов на Эребор. В этом фильме отряд прячется у Беорна, знакомится с симпатичным лучником (который в третьем фильме убьет дракона), сидит в тюрьме у Стивена Фрая и много бегает от орков, Беорна, солдат Фрая, эльфов и пауков. В конце на сцену выходит Смауг, который презрительным голосом Шерлока Холмса объясняет хоббиту-Ватсону, что его не любят.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>test4</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/04/27/test4.html"/>
+    <id>http://blog.url.com/blog/2014/04/27/test4.html</id>
+    <published>2014-04-27T00:00:00+12:00</published>
+    <updated>2014-04-28T15:43:13+12:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;iframe width="260" height="160" src="//www.youtube.com/embed/3fK35jaxf8I?rel=0" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+</content>
+  </entry>
+  <entry>
+    <title>test3</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/04/27/test3.html"/>
+    <id>http://blog.url.com/blog/2014/04/27/test3.html</id>
+    <published>2014-04-27T00:00:00+12:00</published>
+    <updated>2014-04-28T15:43:03+12:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;iframe width="260" height="160" src="//www.youtube.com/embed/3fK35jaxf8I?rel=0" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+</content>
+  </entry>
+  <entry>
+    <title>test</title>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/04/27/test.html"/>
+    <id>http://blog.url.com/blog/2014/04/27/test.html</id>
+    <published>2014-04-27T00:00:00+12:00</published>
+    <updated>2014-04-28T14:35:45+12:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;h1 id="title"&gt;Title&lt;/h1&gt;
+
+&lt;p&gt;Все тут знают, что такое “Машина Голдберга”? Голдберг был карикатуристом, который обожал рисовать комично запутанные механизмы. Представьте себе десятки перекрещивающихся веревок, передач, а также грузы, желоба, канистры с жидкостью — все связаны в одну машину, которая при запуске будет несколько минут перекидывать кинетическую энергию по комнате, чтобы в конце разбить, например, яйцо.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
