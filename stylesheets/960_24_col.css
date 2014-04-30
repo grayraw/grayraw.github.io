@@ -1,0 +1,607 @@
+/*
+  960 Grid System ~ Core CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+/*
+  Forces backgrounds to span full width,
+  even if there is horizontal scrolling.
+  Increase this if your layout is wider.
+
+  Note: IE6 works fine without this fix.
+*/
+/* line 17, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+body {
+  min-width: 960px; }
+
+/* `Container
+----------------------------------------------------------------------------------------------------*/
+/* line 24, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px; }
+
+/* `Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+/* line 56, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12,
+.grid_13,
+.grid_14,
+.grid_15,
+.grid_16,
+.grid_17,
+.grid_18,
+.grid_19,
+.grid_20,
+.grid_21,
+.grid_22,
+.grid_23,
+.grid_24 {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+/* line 85, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5,
+.push_6, .pull_6,
+.push_7, .pull_7,
+.push_8, .pull_8,
+.push_9, .pull_9,
+.push_10, .pull_10,
+.push_11, .pull_11,
+.push_12, .pull_12,
+.push_13, .pull_13,
+.push_14, .pull_14,
+.push_15, .pull_15,
+.push_16, .pull_16,
+.push_17, .pull_17,
+.push_18, .pull_18,
+.push_19, .pull_19,
+.push_20, .pull_20,
+.push_21, .pull_21,
+.push_22, .pull_22,
+.push_23, .pull_23 {
+  position: relative; }
+
+/* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+/* line 92, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.alpha {
+  margin-left: 0; }
+
+/* line 96, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.omega {
+  margin-right: 0; }
+
+/* `Grid >> 24 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 103, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_1 {
+  width: 30px; }
+
+/* line 107, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_2 {
+  width: 70px; }
+
+/* line 111, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_3 {
+  width: 110px; }
+
+/* line 115, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_4 {
+  width: 150px; }
+
+/* line 119, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_5 {
+  width: 190px; }
+
+/* line 123, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_6 {
+  width: 230px; }
+
+/* line 127, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_7 {
+  width: 270px; }
+
+/* line 131, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_8 {
+  width: 310px; }
+
+/* line 135, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_9 {
+  width: 350px; }
+
+/* line 139, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_10 {
+  width: 390px; }
+
+/* line 143, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_11 {
+  width: 430px; }
+
+/* line 147, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_12 {
+  width: 470px; }
+
+/* line 151, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_13 {
+  width: 510px; }
+
+/* line 155, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_14 {
+  width: 550px; }
+
+/* line 159, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_15 {
+  width: 590px; }
+
+/* line 163, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_16 {
+  width: 630px; }
+
+/* line 167, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_17 {
+  width: 670px; }
+
+/* line 171, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_18 {
+  width: 710px; }
+
+/* line 175, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_19 {
+  width: 750px; }
+
+/* line 179, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_20 {
+  width: 790px; }
+
+/* line 183, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_21 {
+  width: 830px; }
+
+/* line 187, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_22 {
+  width: 870px; }
+
+/* line 191, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_23 {
+  width: 910px; }
+
+/* line 195, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .grid_24 {
+  width: 950px; }
+
+/* `Prefix Extra Space >> 24 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 202, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_1 {
+  padding-left: 40px; }
+
+/* line 206, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_2 {
+  padding-left: 80px; }
+
+/* line 210, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_3 {
+  padding-left: 120px; }
+
+/* line 214, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_4 {
+  padding-left: 160px; }
+
+/* line 218, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_5 {
+  padding-left: 200px; }
+
+/* line 222, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_6 {
+  padding-left: 240px; }
+
+/* line 226, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_7 {
+  padding-left: 280px; }
+
+/* line 230, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_8 {
+  padding-left: 320px; }
+
+/* line 234, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_9 {
+  padding-left: 360px; }
+
+/* line 238, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_10 {
+  padding-left: 400px; }
+
+/* line 242, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_11 {
+  padding-left: 440px; }
+
+/* line 246, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_12 {
+  padding-left: 480px; }
+
+/* line 250, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_13 {
+  padding-left: 520px; }
+
+/* line 254, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_14 {
+  padding-left: 560px; }
+
+/* line 258, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_15 {
+  padding-left: 600px; }
+
+/* line 262, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_16 {
+  padding-left: 640px; }
+
+/* line 266, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_17 {
+  padding-left: 680px; }
+
+/* line 270, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_18 {
+  padding-left: 720px; }
+
+/* line 274, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_19 {
+  padding-left: 760px; }
+
+/* line 278, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_20 {
+  padding-left: 800px; }
+
+/* line 282, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_21 {
+  padding-left: 840px; }
+
+/* line 286, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_22 {
+  padding-left: 880px; }
+
+/* line 290, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .prefix_23 {
+  padding-left: 920px; }
+
+/* `Suffix Extra Space >> 24 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 297, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_1 {
+  padding-right: 40px; }
+
+/* line 301, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_2 {
+  padding-right: 80px; }
+
+/* line 305, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_3 {
+  padding-right: 120px; }
+
+/* line 309, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_4 {
+  padding-right: 160px; }
+
+/* line 313, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_5 {
+  padding-right: 200px; }
+
+/* line 317, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_6 {
+  padding-right: 240px; }
+
+/* line 321, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_7 {
+  padding-right: 280px; }
+
+/* line 325, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_8 {
+  padding-right: 320px; }
+
+/* line 329, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_9 {
+  padding-right: 360px; }
+
+/* line 333, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_10 {
+  padding-right: 400px; }
+
+/* line 337, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_11 {
+  padding-right: 440px; }
+
+/* line 341, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_12 {
+  padding-right: 480px; }
+
+/* line 345, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_13 {
+  padding-right: 520px; }
+
+/* line 349, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_14 {
+  padding-right: 560px; }
+
+/* line 353, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_15 {
+  padding-right: 600px; }
+
+/* line 357, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_16 {
+  padding-right: 640px; }
+
+/* line 361, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_17 {
+  padding-right: 680px; }
+
+/* line 365, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_18 {
+  padding-right: 720px; }
+
+/* line 369, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_19 {
+  padding-right: 760px; }
+
+/* line 373, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_20 {
+  padding-right: 800px; }
+
+/* line 377, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_21 {
+  padding-right: 840px; }
+
+/* line 381, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_22 {
+  padding-right: 880px; }
+
+/* line 385, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .suffix_23 {
+  padding-right: 920px; }
+
+/* `Push Space >> 24 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 392, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_1 {
+  left: 40px; }
+
+/* line 396, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_2 {
+  left: 80px; }
+
+/* line 400, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_3 {
+  left: 120px; }
+
+/* line 404, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_4 {
+  left: 160px; }
+
+/* line 408, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_5 {
+  left: 200px; }
+
+/* line 412, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_6 {
+  left: 240px; }
+
+/* line 416, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_7 {
+  left: 280px; }
+
+/* line 420, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_8 {
+  left: 320px; }
+
+/* line 424, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_9 {
+  left: 360px; }
+
+/* line 428, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_10 {
+  left: 400px; }
+
+/* line 432, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_11 {
+  left: 440px; }
+
+/* line 436, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_12 {
+  left: 480px; }
+
+/* line 440, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_13 {
+  left: 520px; }
+
+/* line 444, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_14 {
+  left: 560px; }
+
+/* line 448, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_15 {
+  left: 600px; }
+
+/* line 452, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_16 {
+  left: 640px; }
+
+/* line 456, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_17 {
+  left: 680px; }
+
+/* line 460, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_18 {
+  left: 720px; }
+
+/* line 464, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_19 {
+  left: 760px; }
+
+/* line 468, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_20 {
+  left: 800px; }
+
+/* line 472, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_21 {
+  left: 840px; }
+
+/* line 476, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_22 {
+  left: 880px; }
+
+/* line 480, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .push_23 {
+  left: 920px; }
+
+/* `Pull Space >> 24 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 487, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_1 {
+  left: -40px; }
+
+/* line 491, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_2 {
+  left: -80px; }
+
+/* line 495, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_3 {
+  left: -120px; }
+
+/* line 499, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_4 {
+  left: -160px; }
+
+/* line 503, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_5 {
+  left: -200px; }
+
+/* line 507, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_6 {
+  left: -240px; }
+
+/* line 511, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_7 {
+  left: -280px; }
+
+/* line 515, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_8 {
+  left: -320px; }
+
+/* line 519, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_9 {
+  left: -360px; }
+
+/* line 523, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_10 {
+  left: -400px; }
+
+/* line 527, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_11 {
+  left: -440px; }
+
+/* line 531, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_12 {
+  left: -480px; }
+
+/* line 535, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_13 {
+  left: -520px; }
+
+/* line 539, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_14 {
+  left: -560px; }
+
+/* line 543, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_15 {
+  left: -600px; }
+
+/* line 547, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_16 {
+  left: -640px; }
+
+/* line 551, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_17 {
+  left: -680px; }
+
+/* line 555, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_18 {
+  left: -720px; }
+
+/* line 559, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_19 {
+  left: -760px; }
+
+/* line 563, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_20 {
+  left: -800px; }
+
+/* line 567, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_21 {
+  left: -840px; }
+
+/* line 571, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_22 {
+  left: -880px; }
+
+/* line 575, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.container_24 .pull_23 {
+  left: -920px; }
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+/* http://sonspring.com/journal/clearing-floats */
+/* line 584, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+/* line 598, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.clearfix:before,
+.clearfix:after,
+.container_24:before,
+.container_24:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0; }
+
+/* line 610, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.clearfix:after,
+.container_24:after {
+  clear: both; }
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+/* line 620, D:/Dropbox/grayraw/source/stylesheets/960_24_col.scss */
+.clearfix,
+.container_24 {
+  zoom: 1; }

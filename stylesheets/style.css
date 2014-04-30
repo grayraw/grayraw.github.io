@@ -1,0 +1,100 @@
+/* line 3, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+body {
+  background: #fafafa;
+  font-family: Helvetica, sans-serif; }
+
+/* line 7, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+h1, h2, h3 {
+  font-family: "Franklin Gothic Medium", sans-serif; }
+
+/* line 10, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+a {
+  text-decoration: none; }
+
+/* line 13, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+#content {
+  width: 960px;
+  margin: 0 auto; }
+  /* line 17, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+  #content p {
+    color: #333333; }
+  /* line 20, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+  #content h2 {
+    font-size: 2em; }
+  /* line 23, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+  #content ul {
+    margin: 20px 0;
+    padding: 0;
+    list-style-type: none; }
+
+/* line 35, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+body {
+  color: #655643;
+  background-color: #f6f7bd;
+  background-color: #d6e6c3; }
+
+/* line 40, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+a, a:hover, a:active, a:visited {
+  color: #bf4d28; }
+
+/* line 48, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+header h1 {
+  font-size: 3.6em; }
+
+/* line 51, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+.social {
+  float: right;
+  margin-top: -52px; }
+
+/* line 57, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+#text {
+  width: 70%;
+  float: left; }
+  /* line 61, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+  #text h1 {
+    font-size: 2.4em; }
+  /* line 65, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+  #text .new-texts span {
+    color: #bbbbbb;
+    font-size: 0.8em;
+    display: block;
+    float: left;
+    margin: 3px 0 0 -50px; }
+
+/* line 74, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+.podcast-header {
+  margin: 36px 20px 0 20px;
+  float: right;
+  color: #777777; }
+
+/* line 79, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+aside {
+  float: right;
+  width: 30%;
+  opacity: 0.4;
+  height: 100%;
+  padding: 40px 0 40px 28px;
+  -webkit-transition: ease-out 1s;
+  -moz-transition: ease-out 1s;
+  -o-transition: ease-out 1s;
+  transition: ease-out 1s;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  /* line 97, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+  aside .video-header a {
+    display: block;
+    width: 100%;
+    background: #999999; }
+
+/* line 104, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+aside:hover {
+  opacity: 1; }
+
+/* line 110, D:/Dropbox/grayraw/source/stylesheets/style.sass */
+footer {
+  font-size: 12px;
+  width: 80%;
+  color: #999999;
+  margin: 30px auto 0 auto;
+  text-align: center; }
