@@ -8,7 +8,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-/* line 18, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 18, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 html,
 button,
 input,
@@ -16,7 +16,7 @@ select,
 textarea {
   color: #222; }
 
-/* line 22, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 22, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 body {
   font-size: 1em;
   line-height: 1.4; }
@@ -26,12 +26,12 @@ body {
  * These selection declarations have to be separate.
  * Customize the background color to match your design.
  */
-/* line 33, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 33, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none; }
 
-/* line 38, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 38, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none; }
@@ -39,7 +39,7 @@ body {
 /*
  * A better looking default horizontal rule
  */
-/* line 47, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 47, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 hr {
   display: block;
   height: 1px;
@@ -51,14 +51,14 @@ hr {
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
-/* line 60, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 60, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 img {
   vertical-align: middle; }
 
 /*
  * Remove default fieldset styles.
  */
-/* line 68, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 68, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -67,14 +67,14 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 78, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 78, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 textarea {
   resize: vertical; }
 
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
-/* line 86, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 86, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -90,7 +90,7 @@ textarea {
 /*
  * Image replacement
  */
-/* line 121, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 121, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -98,7 +98,7 @@ textarea {
   /* IE 6/7 fallback */
   *text-indent: -9999px; }
 
-/* line 129, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 129, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -108,7 +108,7 @@ textarea {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 140, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 140, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden; }
@@ -116,7 +116,7 @@ textarea {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 149, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 149, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -131,7 +131,7 @@ textarea {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 166, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 166, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -144,7 +144,7 @@ textarea {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 179, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 179, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .invisible {
   visibility: hidden; }
 
@@ -159,7 +159,7 @@ textarea {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 196, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 196, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -167,7 +167,7 @@ textarea {
   display: table;
   /* 2 */ }
 
-/* line 201, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 201, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .clearfix:after {
   clear: both; }
 
@@ -175,7 +175,7 @@ textarea {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 210, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 210, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .clearfix {
   *zoom: 1; }
 
@@ -193,7 +193,7 @@ textarea {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 235, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 235, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -201,59 +201,59 @@ textarea {
     box-shadow: none !important;
     text-shadow: none !important; }
 
-  /* line 243, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 243, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   a,
   a:visited {
     text-decoration: underline; }
 
-  /* line 247, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 247, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   a[href]:after {
     content: " (" attr(href) ")"; }
 
-  /* line 251, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 251, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")"; }
 
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 261, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 261, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: ""; }
 
-  /* line 266, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 266, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
 
-  /* line 271, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 271, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */ }
 
-  /* line 276, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 276, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   tr,
   img {
     page-break-inside: avoid; }
 
-  /* line 280, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 280, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   img {
     max-width: 100% !important; }
 
   @page {
     margin: 0.5cm; }
 
-  /* line 290, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 290, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
 
-  /* line 296, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 296, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   h2,
   h3 {
     page-break-after: avoid; } }

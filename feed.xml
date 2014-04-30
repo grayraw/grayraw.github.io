@@ -11,8 +11,8 @@
   </author>
   <entry>
     <title>test2</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/04/28/test2.html"/>
-    <id>http://blog.url.com/blog/2014/04/28/test2.html</id>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/04/28/test2/"/>
+    <id>http://blog.url.com/blog/2014/04/28/test2/</id>
     <published>2014-04-28T00:00:00+12:00</published>
     <updated>2014-04-28T16:47:50+12:00</updated>
     <author>
@@ -25,8 +25,8 @@
   </entry>
   <entry>
     <title>test4</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/04/27/test4.html"/>
-    <id>http://blog.url.com/blog/2014/04/27/test4.html</id>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/04/27/test4/"/>
+    <id>http://blog.url.com/blog/2014/04/27/test4/</id>
     <published>2014-04-27T00:00:00+12:00</published>
     <updated>2014-04-28T15:43:13+12:00</updated>
     <author>
@@ -37,8 +37,8 @@
   </entry>
   <entry>
     <title>test3</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/04/27/test3.html"/>
-    <id>http://blog.url.com/blog/2014/04/27/test3.html</id>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/04/27/test3/"/>
+    <id>http://blog.url.com/blog/2014/04/27/test3/</id>
     <published>2014-04-27T00:00:00+12:00</published>
     <updated>2014-04-28T15:43:03+12:00</updated>
     <author>
@@ -49,14 +49,14 @@
   </entry>
   <entry>
     <title>test</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2014/04/27/test.html"/>
-    <id>http://blog.url.com/blog/2014/04/27/test.html</id>
+    <link rel="alternate" href="http://blog.url.com/blog/2014/04/27/test/"/>
+    <id>http://blog.url.com/blog/2014/04/27/test/</id>
     <published>2014-04-27T00:00:00+12:00</published>
-    <updated>2014-04-28T14:35:45+12:00</updated>
+    <updated>2014-04-29T17:01:51+12:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;h1 id="title"&gt;Title&lt;/h1&gt;
+    <content type="html">&lt;h1 id="not-a-title"&gt;Not a Title&lt;/h1&gt;
 
 &lt;p&gt;Все тут знают, что такое “Машина Голдберга”? Голдберг был карикатуристом, который обожал рисовать комично запутанные механизмы. Представьте себе десятки перекрещивающихся веревок, передач, а также грузы, желоба, канистры с жидкостью — все связаны в одну машину, которая при запуске будет несколько минут перекидывать кинетическую энергию по комнате, чтобы в конце разбить, например, яйцо.&lt;/p&gt;
 </content>

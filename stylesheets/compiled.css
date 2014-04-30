@@ -5,7 +5,7 @@
 /*
  * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 22, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 22, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 article,
 aside,
 details,
@@ -22,7 +22,7 @@ summary {
 /*
  * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 32, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 32, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 audio,
 canvas,
 video {
@@ -34,7 +34,7 @@ video {
  * Prevents modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 43, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 43, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -44,7 +44,7 @@ audio:not([controls]) {
  * and Safari 4.
  * Known issue: no IE 6 support.
  */
-/* line 54, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 54, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 [hidden] {
   display: none; }
 
@@ -57,7 +57,7 @@ audio:not([controls]) {
  * 2. Prevents iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 69, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 69, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 html {
   font-size: 100%;
   /* 1 */
@@ -70,7 +70,7 @@ html {
  * Addresses `font-family` inconsistency between `textarea` and other form
  * elements.
  */
-/* line 84, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 84, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 html,
 button,
 input,
@@ -81,7 +81,7 @@ textarea {
 /*
  * Addresses margins handled incorrectly in IE 6/7.
  */
-/* line 92, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 92, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 body {
   margin: 0; }
 
@@ -91,14 +91,14 @@ body {
 /*
  * Addresses `outline` inconsistency between Chrome and other browsers.
  */
-/* line 104, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 104, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 a:focus {
   outline: thin dotted; }
 
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
  */
-/* line 113, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 113, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 a:active,
 a:hover {
   outline: 0; }
@@ -111,32 +111,32 @@ a:hover {
  * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
  * and Chrome.
  */
-/* line 127, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 127, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
-/* line 132, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 132, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0; }
 
-/* line 137, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 137, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 h3 {
   font-size: 1.17em;
   margin: 1em 0; }
 
-/* line 142, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 142, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 h4 {
   font-size: 1em;
   margin: 1.33em 0; }
 
-/* line 147, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 147, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0; }
 
-/* line 152, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 152, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 h6 {
   font-size: 0.75em;
   margin: 2.33em 0; }
@@ -144,33 +144,33 @@ h6 {
 /*
  * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
  */
-/* line 161, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 161, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /*
  * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
  */
-/* line 170, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 170, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 b,
 strong {
   font-weight: bold; }
 
-/* line 174, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 174, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 blockquote {
   margin: 1em 40px; }
 
 /*
  * Addresses styling not present in Safari 5 and Chrome.
  */
-/* line 182, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 182, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 dfn {
   font-style: italic; }
 
 /*
  * Addresses styling not present in IE 6/7/8/9.
  */
-/* line 190, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 190, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 mark {
   background: #ff0;
   color: #000; }
@@ -178,7 +178,7 @@ mark {
 /*
  * Addresses margins set differently in IE 6/7.
  */
-/* line 200, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 200, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 p,
 pre {
   margin: 1em 0; }
@@ -186,7 +186,7 @@ pre {
 /*
  * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
-/* line 211, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 211, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 code,
 kbd,
 pre,
@@ -198,7 +198,7 @@ samp {
 /*
  * Improves readability of pre-formatted text in all browsers.
  */
-/* line 221, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 221, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -207,14 +207,14 @@ pre {
 /*
  * Addresses CSS quotes not supported in IE 6/7.
  */
-/* line 231, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 231, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 q {
   quotes: none; }
 
 /*
  * Addresses `quotes` property not supported in Safari 4.
  */
-/* line 240, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 240, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 q:before,
 q:after {
   content: '';
@@ -223,14 +223,14 @@ q:after {
 /*
  * Addresses inconsistent and variable font size in all browsers.
  */
-/* line 249, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 249, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 small {
   font-size: 80%; }
 
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 258, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 258, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -238,11 +238,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 265, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 265, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 sup {
   top: -0.5em; }
 
-/* line 269, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 269, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 sub {
   bottom: -0.25em; }
 
@@ -252,21 +252,21 @@ sub {
 /*
  * Addresses margins set differently in IE 6/7.
  */
-/* line 284, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 284, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 dl,
 menu,
 ol,
 ul {
   margin: 1em 0; }
 
-/* line 288, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 288, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 dd {
   margin: 0 0 0 40px; }
 
 /*
  * Addresses paddings set differently in IE 6/7.
  */
-/* line 298, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 298, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 menu,
 ol,
 ul {
@@ -275,7 +275,7 @@ ul {
 /*
  * Corrects list images handled incorrectly in IE 7.
  */
-/* line 307, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 307, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
@@ -288,7 +288,7 @@ nav ol {
  * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
  * 2. Improves image quality when scaled in IE 7.
  */
-/* line 321, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 321, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 img {
   border: 0;
   /* 1 */
@@ -298,7 +298,7 @@ img {
 /*
  * Corrects overflow displayed oddly in IE 9.
  */
-/* line 330, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 330, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -308,7 +308,7 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
  */
-/* line 342, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 342, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 figure {
   margin: 0; }
 
@@ -318,14 +318,14 @@ figure {
 /*
  * Corrects margin displayed oddly in IE 6/7.
  */
-/* line 354, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 354, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 form {
   margin: 0; }
 
 /*
  * Define consistent border, margin, and padding.
  */
-/* line 362, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 362, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -336,7 +336,7 @@ fieldset {
  * 2. Corrects text not wrapping in Firefox 3.
  * 3. Corrects alignment displayed oddly in IE 6/7.
  */
-/* line 374, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 374, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -352,7 +352,7 @@ legend {
  *    and Chrome.
  * 3. Improves appearance and consistency in all browsers.
  */
-/* line 391, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 391, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 button,
 input,
 select,
@@ -370,7 +370,7 @@ textarea {
  * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 404, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 404, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 button,
 input {
   line-height: normal; }
@@ -384,7 +384,7 @@ input {
  * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-/* line 421, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 421, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -399,7 +399,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements.
  */
-/* line 432, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 432, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default; }
@@ -410,7 +410,7 @@ input[disabled] {
  * 3. Removes excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-/* line 444, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 444, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -427,7 +427,7 @@ input[type="radio"] {
  * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 457, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 457, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -440,7 +440,7 @@ input[type="search"] {
  * Removes inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 470, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 470, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -448,7 +448,7 @@ input[type="search"]::-webkit-search-decoration {
 /*
  * Removes inner padding and border in Firefox 3+.
  */
-/* line 479, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 479, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -458,7 +458,7 @@ input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE 6/7/8/9.
  * 2. Improves readability and alignment in all browsers.
  */
-/* line 489, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 489, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -471,7 +471,7 @@ textarea {
 /*
  * Remove most spacing between table cells.
  */
-/* line 502, d:/Dropbox/Public/grayraw/source/stylesheets/normalize.scss */
+/* line 502, D:/Dropbox/grayraw/source/stylesheets/normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
@@ -486,7 +486,7 @@ table {
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-/* line 18, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 18, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 html,
 button,
 input,
@@ -494,7 +494,7 @@ select,
 textarea {
   color: #222; }
 
-/* line 22, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 22, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 body {
   font-size: 1em;
   line-height: 1.4; }
@@ -504,12 +504,12 @@ body {
  * These selection declarations have to be separate.
  * Customize the background color to match your design.
  */
-/* line 33, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 33, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none; }
 
-/* line 38, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 38, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none; }
@@ -517,7 +517,7 @@ body {
 /*
  * A better looking default horizontal rule
  */
-/* line 47, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 47, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 hr {
   display: block;
   height: 1px;
@@ -529,14 +529,14 @@ hr {
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
-/* line 60, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 60, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 img {
   vertical-align: middle; }
 
 /*
  * Remove default fieldset styles.
  */
-/* line 68, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 68, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -545,14 +545,14 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 78, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 78, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 textarea {
   resize: vertical; }
 
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
-/* line 86, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 86, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .chromeframe {
   margin: 0.2em 0;
   background: #ccc;
@@ -568,7 +568,7 @@ textarea {
 /*
  * Image replacement
  */
-/* line 121, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 121, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -576,7 +576,7 @@ textarea {
   /* IE 6/7 fallback */
   *text-indent: -9999px; }
 
-/* line 129, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 129, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .ir:before {
   content: "";
   display: block;
@@ -586,7 +586,7 @@ textarea {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 140, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 140, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .hidden {
   display: none !important;
   visibility: hidden; }
@@ -594,7 +594,7 @@ textarea {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 149, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 149, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -609,7 +609,7 @@ textarea {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 166, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 166, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -622,7 +622,7 @@ textarea {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 179, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 179, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .invisible {
   visibility: hidden; }
 
@@ -637,7 +637,7 @@ textarea {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 196, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 196, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -645,7 +645,7 @@ textarea {
   display: table;
   /* 2 */ }
 
-/* line 201, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 201, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .clearfix:after {
   clear: both; }
 
@@ -653,7 +653,7 @@ textarea {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 210, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+/* line 210, D:/Dropbox/grayraw/source/stylesheets/main.scss */
 .clearfix {
   *zoom: 1; }
 
@@ -671,7 +671,7 @@ textarea {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 235, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 235, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -679,118 +679,118 @@ textarea {
     box-shadow: none !important;
     text-shadow: none !important; }
 
-  /* line 243, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 243, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   a,
   a:visited {
     text-decoration: underline; }
 
-  /* line 247, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 247, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   a[href]:after {
     content: " (" attr(href) ")"; }
 
-  /* line 251, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 251, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   abbr[title]:after {
     content: " (" attr(title) ")"; }
 
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 261, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 261, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: ""; }
 
-  /* line 266, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 266, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
 
-  /* line 271, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 271, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */ }
 
-  /* line 276, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 276, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   tr,
   img {
     page-break-inside: avoid; }
 
-  /* line 280, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 280, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   img {
     max-width: 100% !important; }
 
   @page {
     margin: 0.5cm; }
 
-  /* line 290, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 290, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
 
-  /* line 296, d:/Dropbox/Public/grayraw/source/stylesheets/main.scss */
+  /* line 296, D:/Dropbox/grayraw/source/stylesheets/main.scss */
   h2,
   h3 {
     page-break-after: avoid; } }
-/* line 3, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+/* line 3, D:/Dropbox/grayraw/source/stylesheets/style.sass */
 body {
   background: #fafafa;
   font-family: Helvetica, sans-serif; }
 
-/* line 7, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+/* line 7, D:/Dropbox/grayraw/source/stylesheets/style.sass */
 h1, h2, h3 {
   font-family: "Franklin Gothic Medium", sans-serif; }
 
-/* line 10, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+/* line 10, D:/Dropbox/grayraw/source/stylesheets/style.sass */
 a {
   text-decoration: none; }
 
-/* line 13, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+/* line 13, D:/Dropbox/grayraw/source/stylesheets/style.sass */
 #content {
   width: 960px;
   margin: 0 auto; }
-  /* line 17, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+  /* line 17, D:/Dropbox/grayraw/source/stylesheets/style.sass */
   #content p {
     color: #333333; }
-  /* line 20, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+  /* line 20, D:/Dropbox/grayraw/source/stylesheets/style.sass */
   #content h2 {
     font-size: 2em; }
-  /* line 23, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+  /* line 23, D:/Dropbox/grayraw/source/stylesheets/style.sass */
   #content ul {
     margin: 20px 0;
     padding: 0;
     list-style-type: none; }
 
-/* line 35, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+/* line 35, D:/Dropbox/grayraw/source/stylesheets/style.sass */
 body {
   color: #655643;
   background-color: #f6f7bd;
   background-color: #d6e6c3; }
 
-/* line 40, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+/* line 40, D:/Dropbox/grayraw/source/stylesheets/style.sass */
 a, a:hover, a:active, a:visited {
   color: #bf4d28; }
 
-/* line 48, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+/* line 48, D:/Dropbox/grayraw/source/stylesheets/style.sass */
 header h1 {
   font-size: 3.6em; }
 
-/* line 51, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+/* line 51, D:/Dropbox/grayraw/source/stylesheets/style.sass */
 .social {
   float: right;
   margin-top: -52px; }
 
-/* line 57, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+/* line 57, D:/Dropbox/grayraw/source/stylesheets/style.sass */
 #text {
   width: 70%;
   float: left; }
-  /* line 61, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+  /* line 61, D:/Dropbox/grayraw/source/stylesheets/style.sass */
   #text h1 {
     font-size: 2.4em; }
-  /* line 65, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+  /* line 65, D:/Dropbox/grayraw/source/stylesheets/style.sass */
   #text .new-texts span {
     color: #bbbbbb;
     font-size: 0.8em;
@@ -798,13 +798,13 @@ header h1 {
     float: left;
     margin: 3px 0 0 -50px; }
 
-/* line 74, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+/* line 74, D:/Dropbox/grayraw/source/stylesheets/style.sass */
 .podcast-header {
   margin: 36px 20px 0 20px;
   float: right;
   color: #777777; }
 
-/* line 79, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+/* line 79, D:/Dropbox/grayraw/source/stylesheets/style.sass */
 aside {
   float: right;
   width: 30%;
@@ -818,17 +818,17 @@ aside {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  /* line 97, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+  /* line 97, D:/Dropbox/grayraw/source/stylesheets/style.sass */
   aside .video-header a {
     display: block;
     width: 100%;
     background: #999999; }
 
-/* line 104, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+/* line 104, D:/Dropbox/grayraw/source/stylesheets/style.sass */
 aside:hover {
   opacity: 1; }
 
-/* line 110, d:/Dropbox/Public/grayraw/source/stylesheets/style.sass */
+/* line 110, D:/Dropbox/grayraw/source/stylesheets/style.sass */
 footer {
   font-size: 12px;
   width: 80%;
